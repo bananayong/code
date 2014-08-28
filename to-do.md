@@ -5,3 +5,4 @@
 4. http://blog.jetbrains.com/idea/2014/03/postfix-completion/
 5. https://serversforhackers.com/editions/2014/08/26/getting-started-with-ansible/
 6. http://mishadoff.com/blog/effective-java/
+7. http://knight76.tistory.com/2001
