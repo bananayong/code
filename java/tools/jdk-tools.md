@@ -34,4 +34,15 @@
   - -F를 이용하여 행이 걸린 프로세스에 대해서도 강제 덤프
   - -l을 이용하여 synchronisation과 lock에 대한 정보를 출력
 
-참고 : http://zeroturnaround.com/rebellabs/the-6-built-in-jdk-tools-the-average-developer-should-learn-to-use-more
+7. jinfo
+  - jps로 java pid를 확인 후 아래 명령어 실행
+  - ```jinfo -flags pid```
+  - 실행중인 JVM에 적용된 옵션을 보여줌
+  - java -XX:+PrintFlagsFinal 를 실행시키면 기본으로 적용되는 옵션을 확인할 수 있음
+  - 특정 옵션이 적용되었는지 확인할 수 있음 ex) ```jinfo -flag PrintHeapAtGC pid```
+  - 실행 중인 JVM 옵션을 수정함 ex) ```jinfo -flag -PrintGCDateStamps pid``` 또는 ```jinfo -flag +PrintGCDateStamps pid```
+  - 현재 jvm에 적용된 system properties도 확인 가능 ex) jinfo -sysprops pid
+
+참고 :
+ - http://zeroturnaround.com/rebellabs/the-6-built-in-jdk-tools-the-average-developer-should-learn-to-use-more
+ - http://www.javacodegeeks.com/2014/08/jinfo-command-line-peeking-at-jvm-runtime-configuration.html
