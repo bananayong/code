@@ -21,4 +21,13 @@
 12. Project structure: Cmd + 1 and type filename for search then F4 or ESC for focusing on editor
 13. turn on autoscroll to source
 14. turn off navigation bar, use Fn + Opt + left arrow if need, and use Cmd + N for new file
-15. 
+15. multiple selection: Ctrl + G, Shift + Ctrl + G
+16. postfix code completion: Cmd + J
+17. basic completion: Ctrl + space
+18. smart completion: Shift + Ctrl + space
+19. intention action & Quick Fix: Opt + enter [+ during auto completion]
+20. popup parameter info: Cmd + P
+21. import optimizer: Ctrl + Opt + O
+22. copy file with path: Shift + Cmd + C
+23. copy Reference: Shift + Opt + Cmd + C
+24. 
