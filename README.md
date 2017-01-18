@@ -1,4 +1,4 @@
-dummy
+CODE
 =====
 
-개인 블로그
+code & wiki
